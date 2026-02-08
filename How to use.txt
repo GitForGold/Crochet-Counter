@@ -1,0 +1,37 @@
+Press enter for a new stitch and - to go back a stitch
+Type "reset" to reset the current pattern
+Type "end" to end the program (just closing it works too)
+
+For a pattern go into the Pattern.txt file and type out a pattern in this format:
+    R?: 
+where the question mark is the round number 
+(actual number does not matter don't worry you could have repeats if you want for example R10: ___ then R10: ___ again)
+
+After the R?: you put in the type of stitch in all caps INC, DC, CH those are examples. Then you can put the number of times to do that stitch in this round
+For example:
+    R2: DC 5
+
+You can also have several stitches repeated
+For example:
+    R2: DC INC 3
+This will result in DC INC DC INC DC INC as it acts like (DC INC)*3
+
+If you want several rounds to be the same you can do:
+For example DC 12 for every round from 5 up to 8 (not inlcuding)
+    R5-8: DC 12
+This will cause round: 5, 6 and 7 to be DC 12.
+
+The actual stitch type can be pretty much anything as long as it does not start with a number.
+Some helpful ones could be indicating a colour using brackets:
+    R8: (Y)DC 32
+
+It is also possible to have numbers inside the stitch if you so desire for example one for the bee body pattern that comes with this is:
+    R23: (B)DC (B)DC2TOG (B)DC 3
+
+A very simple little circle pattern could look like this
+    R1: CH 2
+    R2: MR 6
+    R3: INC 6
+    R4: DC INC 6
+    R5: DC INC DC 6
+    R6: DC DC DC INC 6

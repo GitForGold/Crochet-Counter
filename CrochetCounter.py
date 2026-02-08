@@ -24,8 +24,8 @@ def printNextStitch():
     
     print("Next Stitch(es): ", pattern[data["Round"]-1][stitchIndex][0], pattern[data["Round"]-1][stitchIndex][1] - curStitch)
 
-saveFile = "CounterSaved2.json"
-patternFile = "Pattern2.txt"
+saveFile = "CounterSaved.json"
+patternFile = "Pattern.txt"
 pattern = []
 data = {}
 
